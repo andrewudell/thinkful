@@ -1,0 +1,109 @@
+body {
+	font-family: Arial;
+	font-size: 13px;
+}
+#header {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	clear: both;
+}
+#header a {
+	margin-right: 10px;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:active {
+	color: black;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+#header img {
+	width: 25px;
+	height: 25px;
+	margin: 0 10px -8px 0;
+}
+#mainImage #imgHolder {
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	padding: 45px 10px 10px 10px;
+}
+#header .button {
+    border: 1px solid rgb(244, 244, 244);
+    font-family: Arial;
+    font-size: 13px;
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+	background: url('linear-gradient.png') 0 0 repeat-x;
+	background: -webkit-linear-gradient(rgb(221, 221, 221), rgb(242, 242, 242));
+	background:    -moz-linear-gradient(rgb(221, 221, 221), rgb(242, 242, 242));
+	background:     -ms-linear-gradient(rgb(221, 221, 221), rgb(242, 242, 242));
+	background:      -o-linear-gradient(rgb(221, 221, 221), rgb(242, 242, 242));
+	background:         linear-gradient(rgb(221, 221, 221), rgb(242, 242, 242));
+}
+#Buttons {
+	display: block;
+	width: 243px;
+	margin: auto;
+}
+#searchB {
+	display: block;
+	width: 243px;
+	margin: auto;
+}
+#Buttons .button {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	height: 30px;
+	color: rgb(68, 68, 68);
+	background-color: rgb(242, 242, 242);
+	border: 1px solid rgb(221, 221, 221);
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+#leftButton {
+	margin-right: 10px;
+}
+#search {
+	display: block;
+	width: 600px;
+	height: 35px;
+	margin: 0 auto;
+}
+input[type="text"] {
+    font-size:18px;
+    font-family: Arial;
+}
+#footer {
+	position: fixed;
+	height: 35px;
+	width: 102%;
+	bottom: 0;
+	left: -10px;
+	background: rgb(242, 242, 242);
+	min-width: 600px;
+}
+#footer a {
+	color: rgb(102, 102, 102);
+	padding-right: 10px;
+	line-height: 32px;
+}
+#leftFooter {
+	float: left;
+	padding-left: 30px;
+}
+#rightFooter {
+	float: right;
+	padding-right: 20px;
+}
